@@ -108,7 +108,7 @@ h1 {
         flex-direction: column;
         align-items: center; /* Center horizontally */
         text-align: center; /* Ensure text is centered */
-        width: 40%; /* Adjust width for larger screens */
+        width: 100%; /* Adjust width for larger screens */
         margin: 0 auto; /* Center container */
     }
 
@@ -116,7 +116,8 @@ h1 {
 
 
     .zimbabwe img {
-        max-width: 40%;
+        width: 100%;
+        max-width: 300px;
         height: auto;
         border-radius: 15px;  /* Increase border radius for images */
     }
