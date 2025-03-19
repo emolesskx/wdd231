@@ -1,0 +1,237 @@
+/* Apply styles only for screens larger than 1200px */
+@media screen and (min-width: 1200px) {
+
+    /* General Layout */
+    body {
+        max-width: 1920px;  /* Increase the max-width for wider screens */
+        margin: 0 auto;
+        background-color: #f4f4f4;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1f4a72;
+        padding: 20px;  /* Increase padding for more space */
+        color: white;
+    }
+
+    header img {
+        width: 70px;  /* Increase the size of the logo */
+        height: 70px;
+        border-radius: 50%;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+
+    header span {
+        font-size: 28px;  /* Increase font size for better visibility */
+        font-weight: bold;
+    }
+
+    /* Navigation */
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #333;
+        height: 60px;
+        padding: 0;  /* Increase padding for more space */
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        gap: 40px;
+    }
+
+    nav ul li {
+        margin: 0 20px;  /* Increase space between navigation items */
+        display: inline-block;
+    }
+
+
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;  /* Increase font size for better readability */
+        padding: 12px 20px;  /* Increase padding for more clickable area */
+        display: block;
+    }
+
+    nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 5px;
+        color: yellow;
+    }
+
+    /* Hide mobile menu button */
+    #menu-button {
+        display: none;
+    }
+
+    /* Main Layout */
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px;  /* Increase padding around the main content */
+		gap: 20px;
+    }
+
+h1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+    /* Course Work & Madagascar Sections */
+     .course-work{
+        background: rgb(255, 255, 255);
+        padding: 10px;  /* Increase padding for a spacious layout */
+        flex: 1;
+        border-radius: 15px;  /* Larger border radius for a softer look */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);  /* Subtle shadow for better depth */
+    }
+
+
+    .zimbabwe{
+        background: rgb(255, 255, 255);
+        padding: 10px;  /* Increase padding for a spacious layout */
+        flex: 1;
+        border-radius: 15px;  /* Larger border radius for a softer look */
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);  /* Subtle shadow for better depth */
+        flex-direction: column;
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Ensure text is centered */
+        width: 40%; /* Adjust width for larger screens */
+        margin: 0 auto; /* Center container */
+    }
+
+
+
+
+    .zimbabwe img {
+        max-width: 40%;
+        height: auto;
+        border-radius: 15px;  /* Increase border radius for images */
+    }
+
+
+    /* Certificate Section */
+    .container {
+		width: 100%;
+		margin: auto;
+		background: white;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px gray;
+		margin-top: 20px;
+	}
+	
+	h2 {
+		background-color: #0c4778;
+		color: white;
+		padding: 15px;
+		border-radius: 5px;
+	}
+	
+	.buttons {
+		margin: 15px 0;
+		gap: 20px;
+		/*justify-content: space-around; */
+	}
+	
+	button {
+		background-color: black;
+		color: white;
+		padding: 10px 15px;
+		margin: 5px;
+		border: none;
+		cursor: pointer;
+		border-radius: 5px;
+		font-size: 16px;
+	}
+	
+	button:hover {
+		background-color: gray;
+	}
+	
+	.courses {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two columns per row */
+		gap: 20px; /* Space between courses */
+		padding: 20px;
+		max-width: 900px; /* Prevents stretching on larger screens */
+		margin: auto;
+		column-gap: 100px;
+			}
+	
+	.course {
+		display: flex;
+		flex-direction: column;
+		padding: 20px;
+		text-align: center;
+		border-radius: 10px;
+		font-size: 18px;
+		font-weight: bold;
+		background-color: white;
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+		transition: transform 0.3s;
+		flex: 1;
+		min-width: 400px;
+		border-radius: 10px;
+
+	}
+	
+	.course:hover {
+		transform: scale(1.03);
+	}
+	
+	.CSE {
+		border-left: 5px solid #6b2b1b;
+		color: black;
+	}
+	
+	.WDD {
+		border-left: 5px solid #dedede;
+	}
+	
+	.completed {
+		background-color: #d4edda;
+		color: #155724;
+	}
+	
+
+/* Medium Screens: Two Columns */
+@media (max-width: 1920px) {
+    .course {
+        flex: 1 1 calc(45% - 20px); /* Adjusts for two columns */
+    }
+}
+
+
+	.incomplete {
+		background-color: #f8d7da;
+		color: #721c24;
+	}
+	
+	.status {
+		font-weight: bold;
+		padding: 5px;
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 30px;  /* Increase padding for a larger footer */
+        background: #1f4a72;
+        color: white;
+    }
+}

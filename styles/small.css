@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #1f4a72;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+header img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+header img, span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+header span {
+    font-size: 1.2rem;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+#menu-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Navigation */
+nav {
+    display: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    transition: background 0.3s ease, color 0.3 ease;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Active Link */
+nav ul li a.active {
+    font-weight: bold;
+}
+
+
+/* Sections */
+main {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #1f4a72;
+}
+
+/* Course Work */
+.course-work h2,
+.zimbabwe h2,
+.container h2 {
+    background-color: #1f4a72;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.course-work {
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Ensure text is centered */
+    width: 95%; /* Make it take more width on small screens */
+    margin: 0 auto; /* Center container */
+}
+
+.zimbabwe {
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Ensure text is centered */
+    width: 95%; /* Make it take more width on small screens */
+    margin: 0 auto; /* Center container */
+}
+
+.zimbabwe img {
+    max-width: 30%; /* Make the image fully responsive */
+    height: auto;
+    border-radius: 10px; /* Keep rounded corners */
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin-top: 10px;
+}
+
+/* Header */
+h2 {
+    background-color: #0c4778;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 30%;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+/* Course List */
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Individual Course Cards */
+.course {
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 5px gray;
+    transition: 0.3s;
+    width: 100%;
+}
+
+/* Hover Effect */
+.course:hover {
+    transform: scale(1.02);
+}
+
+/* Subject-Specific Borders */
+.CSE {
+    background-color: #6b2b1b;
+    color: white;
+}
+
+.WDD {
+    background-color: #dedede;
+    color: black;
+}
+
+/* Completed & Incomplete Courses */
+.completed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.incomplete {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Status Labels */
+.status {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+/* Footer */
+footer {
+    background-color: #1f4a72;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center; /* Centers content */
+    align-items: center; /* Aligns items vertically */
+    gap: 5px;
+    }
