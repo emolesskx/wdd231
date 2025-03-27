@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timbuktu Chamber of Commerce - Business Directory">
+    <meta name="author" content="Tonderayi K Tafirenyika">
+    <title>Timbuktu Chamber of Commerce - Directory</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!--Facebook Open Graph Metadata -->
+    <meta property="og:title" content="Timbuktu Chamber of Commerce Business Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/preview-image.jpg">
+    <meta property="og:url" content="https://timbuktuchamber.org/directory.html">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link type="text/css" rel="stylesheet" href="./styles/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/base.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/medium.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/larger.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="./scripts/script.js" defer></script>
+    <script src="./scripts/directory.js" defer></script>
+
+
+</head>
+<body>
+    <header class="nav">
+        <div class="nav-brand">
+            <img src="#" alt="#" width="120"  />
+            <h1 id="nav-title">Timbuktu Chamber of Commerce</h1>
+        </div>
+        <div class="nav-box">
+            <div class="nav-info">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="#" >Home</a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#" class="active-page" >Directory</a></li>
+                        <li><a href="#">Join</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="dark-mode-btn">
+                <input type="checkbox" id="darkOption" class="checkbox" onclick="screenMode()" />
+                <label for="darkOption" class="toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
+    <main>
+  <!-- Content -->
+  
+    <section class="hero hero-directory">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Timbuktu Chamber of Commerce</h2>
+            </div>
+        </div>
+    </section>
+    <section id="directory">
+        <h2>Business Directory</h2>
+        <div class="menu">
+            <button id="gridBtn">Grid</button>
+            <button id="listBtn">List</button>
+        </div>
+        <article id="members" class="grid"></article>
+    </section>
+    <div id="biz-images-header">
+                        
+        <p id="message"><span></span></p>
+    
+    <h3><span class="label"> </span><span class="visits"></span></h3>
+    
+</div>
+
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="footer-title">
+                <img src="#" alt="" width="60" height="60" />
+                <h2>Timbuktu Chamber of Commerce</h2>
+            </div>
+            <div class="footer-addr">
+                <h3>Contact Us</h3>
+                <address>
+                    10 Rue De La Paix <br />
+                    Timbuktu, Mali 999, 
+                    info@timbuktucc.org<br />
+                    <a class="footer-btn" href="info@timbuktucc.org">Email Us</a>
+                </address>
+            </div>
+            <div class="footer-nav">
+                <h3>Links</h3>
+                <ul class="">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#" class="active-page" >Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <!--li><a href="https://instagram.com/timbuktucc" target="_blank"><i class="fa-brands fa-instagram"></i></a></li-->
+                </ul>
+            </div>
+
+            <div class="legal">
+                <div class="">
+                    <span><span id="cYear">&copy;</span> Timbuktu Chamber of Commerce | Tonderayi K. Tafirenyika | WDD 231 Class Project</span>
+                </div>
+                <div class="">
+                    
+                    <p id="lastModified"></p>
+                </div>
+            </div>
+        </section>
+    </footer>
+      
+</body>
+</html>

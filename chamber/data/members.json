@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Timbuktu Tech Solutions",
+        "address": "123 Innovation Street, Timbuktu, Mali",
+        "phone": "(223) 555-1001",
+        "website": "https://timbuktutech.com",
+        "image": "timbuktutech.png",
+        "membership": 3,
+        "description": "Leading provider of IT solutions in Timbuktu."
+    },
+    {
+        "name": "Sahara Coffee Roasters",
+        "address": "45 Desert Lane, Timbuktu, Mali",
+        "phone": "(223) 555-1002",
+        "website": "https://saharacoffee.com",
+        "image": "saharacoffee.png",
+        "membership": 2,
+        "description": "Organic coffee sourced from the best farms."
+    },
+    {
+        "name": "Mali Artisan Crafts",
+        "address": "78 Culture Avenue, Timbuktu, Mali",
+        "phone": "(223) 555-1003",
+        "website": "https://maliart.com",
+        "image": "maliart.png",
+        "membership": 1,
+        "description": "Handmade crafts and souvenirs."
+    },
+    {
+        "name": "Sahara Bank",
+        "address": "100 Finance Street, Timbuktu, Mali",
+        "phone": "(223) 555-1004",
+        "website": "https://saharabank.com",
+        "image": "saharabank.png",
+        "membership": 3,
+        "description": "Your trusted financial partner in the Sahara region."
+    },
+    {
+        "name": "Nomad Travel Agency",
+        "address": "25 Explorer Road, Timbuktu, Mali",
+        "phone": "(223) 555-1005",
+        "website": "https://nomadtravel.com",
+        "image": "nomadtravel.png",
+        "membership": 2,
+        "description": "Explore the wonders of the Sahara with us!"
+    },
+    {
+        "name": "Desert Auto Repair",
+        "address": "35 Mechanic Street, Timbuktu, Mali",
+        "phone": "(223) 555-1006",
+        "website": "https://desertauto.com",
+        "image": "desertauto.png",
+        "membership": 1,
+        "description": "Reliable vehicle repair services."
+    },
+    {
+        "name": "Oasis Health Clinic",
+        "address": "99 Wellness Avenue, Timbuktu, Mali",
+        "phone": "(223) 555-1007",
+        "website": "https://oasishealth.com",
+        "image": "oasishealth.png",
+        "membership": 3,
+        "description": "Quality healthcare for the community."
+    },
+    {
+        "name": "Timbuktu Art Gallery",
+        "address": "50 Artistic Lane, Timbuktu, Mali",
+        "phone": "(223) 555-1008",
+        "website": "https://timbuktuart.com",
+        "image": "timbuktuart.png",
+        "membership": 2,
+        "description": "Exhibiting the finest local and regional art."
+    },
+    {
+        "name": "Saharan Construction",
+        "address": "120 Builder's Way, Timbuktu, Mali",
+        "phone": "(223) 555-1009",
+        "website": "https://saharanconstruction.com",
+        "image": "saharanconstruction.png",
+        "membership": 3,
+        "description": "Building the future of Timbuktu."
+    },
+    {
+        "name": "Sands Electronics",
+        "address": "200 Tech Road, Timbuktu, Mali",
+        "phone": "(223) 555-1010",
+        "website": "https://sandselectronics.com",
+        "image": "sandselectronics.png",
+        "membership": 2,
+        "description": "Providing the latest in electronics and gadgets."
+    },
+    {
+        "name": "Golden Desert Resorts",
+        "address": "150 Resort Street, Timbuktu, Mali",
+        "phone": "(223) 555-1011",
+        "website": "https://goldendesertresorts.com",
+        "image": "goldendesertresorts.png",
+        "membership": 3,
+        "description": "Luxury desert resorts for a unique vacation experience."
+    },
+    {
+        "name": "Oasis Landscaping",
+        "address": "80 Greenfield Road, Timbuktu, Mali",
+        "phone": "(223) 555-1012",
+        "website": "https://oasislandscaping.com",
+        "image": "oasislandscaping.png",
+        "membership": 1,
+        "description": "Landscaping services that turn your yard into an oasis."
+    }
+]
