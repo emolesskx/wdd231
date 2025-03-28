@@ -443,7 +443,7 @@ div.footer-title > img{
     justify-content: center;
     height: 36px;
     max-width: max-content;
-    background-color: var(--accent2-color);
+    background-color: var(--accent5-color);
     border-radius: 100px;
     color: var(--text-color-secondary);
     line-height: 0;
@@ -455,7 +455,7 @@ div.footer-title > img{
 
 .footer-btn:hover {
     background-color: var(--accent1-color);
-    color: var(--text-color-main);
+    color: var(--text-color-secondary);
 }
 
 .footer-nav {
