@@ -237,7 +237,7 @@ main {
     border-radius: 10px;
     max-width: 90%;
 }
-.hero-content h2 {
+.hero-content h1 {
     font-size: 3em;
     font-weight: 800;
     color: var(--text-color-secondary);
