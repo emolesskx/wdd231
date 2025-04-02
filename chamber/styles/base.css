@@ -209,7 +209,7 @@ main {
     height: 100vh; /* Full screen height */
 }
 .hero-home {
-    background-image: url("");
+    background-image: url("../images/background-image.jpg");
 }
 .hero-discover {
     background-image: url("");
@@ -243,6 +243,16 @@ main {
     color: var(--text-color-secondary);
     margin: 20px;
 }
+
+.hero-content h2 {
+    font-size: 3em;
+    font-weight: 800;
+    color: var(--text-color-secondary);
+    margin: 20px;
+}
+
+
+
 .hero-content p {
     font-size: 1.5em;
     font-weight: 600;
@@ -302,7 +312,7 @@ main {
     border-width: 1px;
     border-color: var(--accent1-color);
 
-    background-color: var(--accent2-color);
+    background-color: var(--accent4-color);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 div > div > div a{color: #212121;}
