@@ -39,9 +39,11 @@
     <!-- External JavaScript with defer -->
     <script src="scripts/script.js" defer></script>
     <script src="scripts/directory.js" defer></script>
-   
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+
 </head>
-<body>
+<body id="record" onload="timeStamp()">
     <header class="nav">
         <div class="nav-brand">
             <img src="assets/icons/timbuktu-logo.webp" alt="Timbuktu Chamber of Commerce" width="120"  />
@@ -52,7 +54,7 @@
                 <input type="checkbox" id="nav-toggle" class="nav-toggle" />
                 <nav class="nav-links">
                     <ul>
-                        <li><a href="./index.html" >Home</a></li>
+                        <li><a href="/index.html" >Home</a></li>
                         <li><a href="#">Discover</a></li>
                         <li><a href="./directory.html" class="active-page" >Directory</a></li>
                         <li><a href="./join.html">Join</a></li>
@@ -74,35 +76,18 @@
         </div>
     </header>
     <!-- Content -->
+    <!-- Content -->
     <main>
-  <!-- Content -->
-  
-    <section class="hero hero-directory">
+            
         <div class="container">
-            <div class="hero-content">
-                <h1>Timbuktu Chamber of Commerce</h1>
-                <p>Fostering a Thriving Community Within Timbuktu</p>
-            </div>
+            <h1>Application Confirmation</h1>
+            <p>Thank you for submitting the Application Request!</p>
+            <p id="timestamp"></p>
+            <a href="./index.html"><button class="homeBtn" type="button">Home page</button></a>
         </div>
-    </section>
-    <section id="directory">
-        <h2>Business Directory</h2>
-        <div class="menu">
-            <button id="gridBtn">Grid</button>
-            <button id="listBtn">List</button>
-        </div>
-        <article id="members" class="grid"></article>
-    </section>
-    <div id="biz-images-header">
-                        
-        <p id="message"><span></span></p>
-    
-    <h3><span class="label"> </span><span class="visits"></span></h3>
-    
-</div>
-
-    </main>
-    <footer>
+        
+</main>
+     <footer>
         <section class="footer">
             <div class="footer-title">
                 <img src="assets/icons/timbuktu-logo.webp" alt="Timbuktu Chamber of Commerce" width="60" height="60" />
@@ -148,5 +133,5 @@
             </div>
         </section>
     </footer>
-   </body>
+</body>
 </html>
