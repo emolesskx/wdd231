@@ -40,6 +40,7 @@
     <script src="scripts/script.js" defer></script>
     <script src="scripts/directory.js" defer></script>
     <script src="scripts/form.js" defer></script>
+    
 
 </head>
 <body>
@@ -53,10 +54,10 @@
                 <input type="checkbox" id="nav-toggle" class="nav-toggle" />
                 <nav class="nav-links">
                     <ul>
-                        <li><a href="/index.html" >Home</a></li>
+                        <li><a href="./index2.html" >Home</a></li>
                         <li><a href="#">Discover</a></li>
-                        <li><a href="./directory.html" class="active-page" >Directory</a></li>
-                        <li><a href="./join.html">Join</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li><a href="./join.html" class="active-page">Join</a></li>
                     </ul>
                 </nav>
                 <label for="nav-toggle" class="nav-btn">
@@ -147,6 +148,7 @@
                                     <li>Subscription to newsletters or updates.</li>
                                     <li>Invitation to general events or meetings.</li>
                                 </ul>
+                                <button onclick="openModal('np')">More Info</button>
                             </div>
                         </div>
                         <div class="member-card">
@@ -160,6 +162,7 @@
                                     <li>Recognition on the organization's website or publications.</li>
                                     <li>Discounted rates for specific events or services.</li>
                                 </ul>
+                                <button onclick="openModal('bronze')">More Info</button>
                             </div>
                         </div>
                         <div class="member-card">
@@ -173,6 +176,7 @@
                                     <li>Featured spotlight positions on the organization's website or social media.</li>
                                     <li>Enhanced networking opportunities, such as exclusive meet-and-greets.</li>
                                 </ul>
+                                <button onclick="openModal('silver')">More Info</button>
                             </div>
                         </div>
                         <div class="member-card">
@@ -186,6 +190,7 @@
                                     <li>Personalized advertising opportunities, such as dedicated email blasts or sponsored content.</li>
                                     <li>Special recognition at major events or in organizational materials.</li>
                                 </ul>
+                                <button onclick="openModal('gold')">More Info</button>
                             </div>
                         </div>
                     </div>
@@ -199,6 +204,13 @@
         <h3><span class="label"> </span><span class="visits"></span></h3>
         
     </div>
+
+     <!-- Modals -->
+     <div id="npModal" class="modal"><div class="modal-content"><span onclick="closeModal('np')" class="close">&times;</span><h3>Non-Profit</h3><p>No cost. Access to newsletters, general events and community resources.</p></div></div>
+     <div id="bronzeModal" class="modal"><div class="modal-content"><span onclick="closeModal('bronze')" class="close">&times;</span><h3>Bronze</h3><p>Includes Non-Profit benefits plus training sessions and recognition.</p></div></div>
+     <div id="silverModal" class="modal"><div class="modal-content"><span onclick="closeModal('silver')" class="close">&times;</span><h3>Silver</h3><p>Includes Bronze benefits plus spotlight promos and event priority.</p></div></div>
+     <div id="goldModal" class="modal"><div class="modal-content"><span onclick="closeModal('gold')" class="close">&times;</span><h3>Gold</h3><p>Includes Silver benefits plus VIP events and custom marketing options.</p></div></div>
+
     </main>
      <footer>
         <section class="footer">
@@ -218,10 +230,10 @@
             <div class="footer-nav">
                 <h3>Links</h3>
                 <ul class="">
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index2.html">Home</a></li>
                     <li><a href="#">Discover</a></li>
-                    <li><a href="./directory.html" class="active-page" >Directory</a></li>
-                    <li><a href="./join.html">Join</a></li>
+                    <li><a href="./directory.html">Directory</a></li>
+                    <li><a href="./join.html"class="active-page">Join</a></li>
                 </ul>
             </div>
 
@@ -246,5 +258,14 @@
             </div>
         </section>
     </footer>
+
+    <script>
+        function openModal(id) {
+    document.getElementById(id + 'Modal').style.display = 'flex';
+}
+function closeModal(id) {
+    document.getElementById(id + 'Modal').style.display = 'none';
+}
+    </script>
 </body>
 </html>

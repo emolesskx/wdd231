@@ -74,7 +74,7 @@ h6 {
 }
 
 .dark-mode {
-    background-color: var(--accent5-color);
+    background-color: var(--accent1-color);
     color: var(--text-color-secondary);
 }
 /* Header and Navigation *********************** */
@@ -131,9 +131,11 @@ header a:hover,
     font-weight: normal;
 }
 .active-page {
-    color: var(--secondary-color);
-    font-weight: 900;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--secondary-color); /* or a standout color */
 }
+
 
 article>div > div > div > a {
     color: var(--secondary-color);
@@ -453,9 +455,9 @@ div.footer-title > img{
     justify-content: center;
     height: 36px;
     max-width: max-content;
-    background-color: var(--accent5-color);
+    background-color: #F8F9FA;
     border-radius: 100px;
-    color: var(--text-color-secondary);
+    color: #343A40;
     line-height: 0;
     margin: 0.6em 0;
     font-size: 1rem;
@@ -985,6 +987,47 @@ form {
     border: solid 1px #999;
     border-radius: 4px;
 }
+
+.member-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  .modal-content {
+    position: relative;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 90%;
+    animation: fadeIn 0.3s ease;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+  }
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000000;
+  }
+
 .member-card h3 {
     margin: 0 0 5px 0;
     padding: 1.2rem;
@@ -1051,7 +1094,7 @@ form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #ffffff;
     border-radius: 4px;
     padding: 0.75rem;
     background-color: rgba(0, 0, 0, 0.1);
@@ -1195,7 +1238,7 @@ button.homeBtn {
     height: 310px;
 }
 .member.dark-mode {
-    background-color: #4b5563;
+    background-color: #a6abb1;
     color: var(--text-color-secondary);
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.7);
 }

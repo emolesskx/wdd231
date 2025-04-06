@@ -42,8 +42,45 @@
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
 
+    <script>
+        // Function to create the timestamp
+        function timeStamp() {
+            const now = new Date();
+
+            const options = {
+                weekday: "short",
+                year: "numeric",
+                month: "short",
+                day: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                second: "2-digit",
+                hour12: false,
+                timeZone: "Africa/Bamako",
+                timeZoneName: "short"
+            };
+
+            const formatted = now.toLocaleString("en-US", options);
+
+            // Target the hidden input and set the timestamp
+            const hiddenInput = document.getElementById("timestamp");
+            if (hiddenInput) {
+                hiddenInput.value = formatted;  // Set hidden field value
+            }
+
+            // Target the visible paragraph element and set the timestamp text
+            const visibleText = document.getElementById("timestamp-text");
+            if (visibleText) {
+                visibleText.innerText = `Timestamp: ${formatted}`;
+            }
+        }
+
+        // Ensure the script runs after the DOM is fully loaded
+        document.addEventListener("DOMContentLoaded", timeStamp);
+    </script>
+
 </head>
-<body id="record" onload="timeStamp()">
+<body>
     <header class="nav">
         <div class="nav-brand">
             <img src="assets/icons/timbuktu-logo.webp" alt="Timbuktu Chamber of Commerce" width="120"  />
@@ -54,10 +91,10 @@
                 <input type="checkbox" id="nav-toggle" class="nav-toggle" />
                 <nav class="nav-links">
                     <ul>
-                        <li><a href="/index.html" >Home</a></li>
+                        <li><a href="./index2.html" >Home</a></li>
                         <li><a href="#">Discover</a></li>
-                        <li><a href="./directory.html" class="active-page" >Directory</a></li>
-                        <li><a href="./join.html">Join</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li><a href="./join.html" class="active-page">Join</a></li>
                     </ul>
                 </nav>
                 <label for="nav-toggle" class="nav-btn">
@@ -80,10 +117,14 @@
     <main>
             
         <div class="container">
-            <h1>Application Confirmation</h1>
-            <p>Thank you for submitting the Application Request!</p>
-            <p id="timestamp"></p>
-            <a href="./index.html"><button class="homeBtn" type="button">Home page</button></a>
+            <h1>Thank You!</h1>
+            <p>We’ve received your application.</p>
+            <p>We will be in touch soon with next steps.</p>
+            
+            <p id="timestamp-text"></p>
+
+            <input type="hidden" name="timestamp" id="timestamp"/>
+            <a href="./index2.html"><button class="homeBtn" type="button">Home page</button></a>
         </div>
         
 </main>
@@ -105,7 +146,7 @@
             <div class="footer-nav">
                 <h3>Links</h3>
                 <ul class="">
-                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./index2.html">Home</a></li>
                     <li><a href="#">Discover</a></li>
                     <li><a href="./directory.html" class="active-page" >Directory</a></li>
                     <li><a href="./join.html">Join</a></li>
