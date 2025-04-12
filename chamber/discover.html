@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Timbuktu Chamber of Commerce - Business Directory">
+    <link rel="canonical" href="https://emolesskx.github.io/wdd231/chamber/" />
+    <meta name="author" content="Tonderayi K Tafirenyika">
+    <title>Timbuktu Chamber of Commerce</title>
+    
+     <!-- Facebook Meta Tags -->
+     <meta property="og:locale" content="en_US" />
+     <meta property="og:type" content="website">
+     <meta property="og:title" content="Timbuktu Chamber of Commerce- Directory" />
+     <meta property="og:description" content="Timbuktu Chamber of Commerce - Fostering a Thriving Community Within Timbuktu" />
+     <meta property="og:url" content="https://emolesskx.github.io/wdd231/chamber/directory.html" />
+     <meta property="og:site_name" content=" Timbuktu Chamber of Commerce" />
+     <meta property="og:image" content="https://emolesskx.github.io/wdd231/chamber/images/background-image.jpg" />
+     <meta property="og:image:alt" content="A photo of Timbuktu Chamber of Commerce." />
+     <meta property="og:image:type" content="image/jpg" />
+     <meta property="og:image:width" content="974" />
+     <meta property="og:image:height" content="370" />
+     <!-- Twitter Meta Tags -->
+     <meta name="twitter:title" content="Timbuktu Chamber of Commerce" />
+     <meta name="twitter:description" content="Timbuktu Chamber of Commerce - Fostering a Thriving Community Within Timbuktu" />
+     <meta name="twitter:image" content="https://emolesskx.github.io/wdd231/chamber/images/background-image.jpg" />
+     <meta name="twitter:card" content="summary_large_image" />
+    <!--Css links-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link type="text/css" rel="stylesheet" href="./styles/base.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/medium.css" />
+    <link type="text/css" rel="stylesheet" href="./styles/large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- External JavaScript with defer -->
+    <script src="scripts/script.js" defer></script>
+    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+
+</head>
+<body>
+    <header class="nav">
+        <div class="nav-brand">
+            <img src="assets/icons/timbuktu-logo.webp" alt="Timbuktu Chamber of Commerce" width="120"  />
+            <h1 id="nav-title">Timbuktu Chamber of Commerce</h1>
+        </div>
+        <div class="nav-box">
+            <div class="nav-info">
+                <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+                <nav class="nav-links">
+                    <ul>
+                        <li><a href="./index2.html">Home</a></li>
+                        <li><a href="./discover.html" class="active-page">Discover</a></li>
+                        <li><a href="./directory.html">Directory</a></li>
+                        <li><a href="./join.html">Join</a></li>
+                    </ul>
+                </nav>
+                <label for="nav-toggle" class="nav-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="dark-mode-btn">
+                <input type="checkbox" id="darkOption" class="checkbox" onclick="screenMode()" />
+                <label for="darkOption" class="toggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+    <!-- Content -->
+    <!-- Content -->
+    <main>
+    <section class="hero hero-discover">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Timbuktu Chamber of Commerce</h2>
+                <p>Discover the heart of Mali's culture and commerce.</p>
+            </div>
+        </div>
+    </section>
+    <div class="wrapper">
+        <div class="sidebar">
+            <section class="style1">
+                <div class="latest-visit"></div>
+                <h2>Discover Timbuktu</h2>
+                <p>
+                    Welcome to the historic city of Timbuktu! Our vibrant community is rich with culture, tradition, and opportunity. Explore ancient architecture, bustling markets, and a unique blend of modern and traditional life.
+                </p>
+                <p>
+                    Come and experience the magic of Timbuktu — where stories from the past meet the possibilities of tomorrow. We look forward to showing you everything our community has to offer.
+                </p>
+            </section>
+            <section class="style6">
+                <h2 class="fast-facts">Fast Facts</h2>
+                <div class="facts">
+                    <div class="fact">
+                        <h3>Population</h3>
+                        <p>54,453</p>
+                    </div>
+                    <div class="fact">
+                        <h3>Median Age</h3>
+                        <p>19.5</p>
+                    </div>
+                    <div class="fact">
+                        <h3>Median Income</h3>
+                        <p>$950 USD/year</p>
+                    </div>
+                    <div class="fact">
+                        <h3>Median Home Value</h3>
+                        <p>$6,500 USD</p>
+                    </div>
+                </div>
+                <hr />
+                <div class="facts">
+                    <div class="fact">
+                        <h3>Climate</h3>
+                        <p>Hot desert climate</p>
+                    </div>
+                    <div class="fact">
+                        <h3>Elevation</h3>
+                        <p>260 meters (853 feet)</p>
+                    </div>
+                    <div class="fact">
+                        <h3>Annual Rainfall</h3>
+                        <p>183 mm (7.2 inches)</p>
+                    </div>
+                    <div class="fact">
+                        <h3>Annual Snowfall</h3>
+                        <p>0 mm (0 inches)</p>
+                    </div>
+                </div>
+            </section>
+            <section class="style2">
+                <h2>Play</h2>
+                <div class="play">
+                    <img src="./images/discover/sunny-icon.webp" loading="lazy" alt="sunny icon" width="120" height="120" />
+                    <p><span class="text-bold">With nearly 350 days of sunshine</span> – enjoy outdoor activities all year round!</p>
+                </div>
+                <hr />
+                <div class="temperature-box">
+                    <div class="deg">
+                        90&deg;
+                        <span>Spring</span>
+                    </div>
+                    <div class="deg">
+                        107&deg;
+                        <span>Summer</span>
+                    </div>
+                    <div class="deg">
+                        95&deg;
+                        <span>Fall</span>
+                    </div>
+                    <div class="deg">
+                        78&deg;
+                        <span>Winter</span>
+                    </div>
+                </div>
+            </section>
+            <section class="style3">
+                <div class="explore-img">
+                    <img src="./images/discover/hiking.jpg" alt="hiking" loading="lazy" width="100" height="100" />
+                    <img src="./images/discover/biking.webp" alt="biking" loading="lazy" width="100" height="100" />
+                    <img src="./images/discover/shopping.jpg" alt="shopping" loading="lazy" width="100" height="100" />
+                    <img src="./images/discover/dining.webp" alt="dining" loading="lazy" width="100" height="100" />
+                </div>
+                <h2>Explore</h2>
+                <p>
+                    Timbuktu is a cultural gem offering historic sites, desert adventures, and local markets. From camel rides to traditional Tuareg crafts, there is always something new to experience.
+                </p>
+            </section>
+            <section class="style5">
+                <h2>Events</h2>
+                <p>
+                    Timbuktu hosts many vibrant events, including music festivals, storytelling nights, and cultural exhibitions. Celebrate Mali's heritage and connect with the community.
+                </p>
+            </section>
+            <section class="style2">
+                <h2>Upcoming Events</h2>
+                <div class="event-card-container">
+                    <div class="event-card">
+                        <h3>Festival in the Desert</h3>
+                        <div>January 10–12, 2025 | Timbuktu Dunes</div>
+                        <p>Experience world-class music and culture under the stars of the Sahara.</p>
+                    </div>
+                    <div class="event-card">
+                        <h3>Timbuktu Heritage Day</h3>
+                        <div>March 18, 2025 | Sankore Mosque</div>
+                        <p>Celebrate local traditions, food, and art in the historic heart of the city.</p>
+                    </div>
+                    <div class="event-card">
+                        <h3>Nomad Market</h3>
+                        <div>May 5, 2025 | Central Square</div>
+                        <p>Shop handmade crafts and goods from across the Sahara region.</p>
+                    </div>
+                    <div class="event-card">
+                        <h3>Desert Run</h3>
+                        <div>November 2, 2025 | Timbuktu Trail</div>
+                        <p>Join our annual desert race and support local health initiatives.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="style1">
+                <h2>Accommodation</h2>
+                <p>
+                    From traditional guesthouses to eco-lodges, Timbuktu offers unique places to stay. Whether you're visiting for adventure or relaxation, you'll find warm hospitality and charm.
+                </p>
+            </section>
+            <section class="style3">
+                <h2>Shopping</h2>
+                <p>
+                    Discover local markets with handcrafted jewelry, leatherwork, spices, and textiles. Timbuktu is a treasure trove for unique souvenirs.
+                </p>
+            </section>
+            <section class="style4">
+                <h2>Dining</h2>
+                <p>
+                    Savor the flavors of Mali with dishes like jollof rice, grilled meats, and refreshing hibiscus tea. Timbuktu blends traditional and modern cuisine in every bite.
+                </p>
+            </section>
+            <section class="style1">
+                <h2>Relocation</h2>
+                <p>
+                    Thinking of making Timbuktu your home? Enjoy a slower pace of life, rich culture, and strong community spirit. It's a unique place to live, work, and grow.
+                </p>
+            </section>
+            <section class="style2">
+                <h2>Business</h2>
+                <p>
+                    Timbuktu is full of opportunity for entrepreneurs and investors. From tourism to tech, join a growing network of businesses in Mali’s cultural capital.
+                </p>
+            </section>
+            <section class="style5">
+                <div id="biz-images-header">
+                    <p id="message"><span></span></p>
+                    <h3><span class="label"> </span><span class="visits"></span></h3>
+                    <h4>Timbuktu</h4>
+                </div>
+                <h2>New Business Members</h2>
+                <div class="biz-images">
+                    <img src="./assets/icons/tech solutions.webp" alt="Timbuktu Tech Solutions" loading="lazy" width="100" height="100" />
+                    <img src="./assets/icons/coffee-roasters.webp" alt="Sahara Coffee Roasters" loading="lazy" width="100" height="100" />
+                    <img src="./assets/icons/OASIS-HELATH-SERVICES-LOGO.png" alt="Oasis Health Clinic" loading="lazy" width="100" height="100" />
+                    <img src="./assets/icons/nomad-travel.png" alt="Nomad Travel Agency" loading="lazy" width="100" height="100" />
+                    <img src="./assets/icons/saharian-construction.png" alt="Saharan Construction" loading="lazy" width="100" height="100" />
+                    <img src="./assets/icons/electronics.png" alt="Sands Electronics" loading="lazy" width="100" height="100" />
+                </div>
+            </section>
+        </div>
+        <div class="content picture">
+            <figure>
+                <img src="./images/discover/sankore_mosque.webp" alt="Sankore Mosque" loading="lazy" width="700" height="500" />
+                <figcaption>Sankore Mosque</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/discover/Timbuktu-manuscripts.webp" alt="Timbuktu Manuscripts" loading="lazy" width="700" height="500" />
+                <figcaption>Ancient Timbuktu Manuscripts</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/discover/Tuareg-market.jpg" alt="Tuareg Market" loading="lazy" width="700" height="500" />
+                <figcaption>Tuareg Market</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/discover/Sahara-Dunes.webp" alt="Sahara Desert Dunes" loading="lazy" width="700" height="500" />
+                <figcaption>Sahara Desert Dunes</figcaption>
+            </figure>
+            <figure>
+                <img src="./images/discover/Timbuktu-sunset.webp" alt="Timbuktu Sunset" loading="lazy" width="700" height="500" />
+                <figcaption>Timbuktu Sunset</figcaption>
+            </figure>
+        </div>
+    </div>
+</main>
+
+     <footer>
+        <section class="footer">
+            <div class="footer-title">
+                <img src="assets/icons/timbuktu-logo.webp" alt="Timbuktu Chamber of Commerce" width="60" height="60" />
+                <h2>Timbuktu Chamber of Commerce</h2>
+            </div>
+            <div class="footer-addr">
+                <h3>Contact Us</h3>
+                <address>
+                    10 Rue De La Paix <br />
+                    Timbuktu, Mali 999, 
+                    info@timbuktucc.org<br />
+                    <a class="footer-btn" href="info@timbuktucc.org">Email Us</a>
+                </address>
+            </div>
+            <div class="footer-nav">
+                <h3>Links</h3>
+                <ul class="">
+                    <li><a href="./index2.html">Home</a></li>
+                    <li><a href="./discover.html" class="active-page">Discover</a></li>
+                    <li><a href="./directory.html">Directory</a></li>
+                    <li><a href="./join.html">Join</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <!--li><a href="https://instagram.com/timbuktucc" target="_blank"><i class="fa-brands fa-instagram"></i></a></li-->
+                </ul>
+            </div>
+
+            <div class="legal">
+                <div class="">
+                    <span><span id="cYear">&copy;</span> Timbuktu Chamber of Commerce | Tonderayi K. Tafirenyika | WDD 231 Class Project</span>
+                </div>
+                <div class="">
+                    
+                    <p id="lastModified"></p>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

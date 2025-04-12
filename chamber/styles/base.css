@@ -214,7 +214,7 @@ main {
     background-image: url("../images/background-image.jpg");
 }
 .hero-discover {
-    background-image: url("");
+    background-image: url("../images/background-image.jpg");
 }
 
 .hero-join {
@@ -838,10 +838,10 @@ se
 
 
 .fast-facts {
-    color: var(--accent3-color);
+    color: var(--accent4-color);
 }
 .fast-facts.dark-mode h2{
-    color: var(--accent3-color);
+    color: var(--accent4-color);
 }
 
 .facts {
@@ -874,7 +874,7 @@ se
 }
 .style6 hr {
     height: 4px;
-    background-color: var(--accent3-color);
+    background-color: var(--accent4-color);
     border: none;
 }
 .event-card-container {
