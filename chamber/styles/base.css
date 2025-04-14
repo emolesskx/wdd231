@@ -720,7 +720,7 @@ div.footer-title > img{
     padding: 10px;
 }
 .picture img {
-    width: 100%;
+    width: 75%;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -728,7 +728,8 @@ div.footer-title > img{
 .picture figcaption {
     font-size: 0.8em;
     font-style: italic;
-    color: #444;
+    color: #000000;
+    font-weight: bold;
 }
 
 .latest-visit {
@@ -737,7 +738,7 @@ div.footer-title > img{
 
 .style1 {
     background-color: var(--secondary-color);
-    color: var(--text-color-main);
+    color: #000000;
     padding: 20px;
 }
 .style2 {
@@ -791,7 +792,7 @@ se
 }
 .style3 {
     background-color: var(--accent1-color);
-    color: var(--text-color-primary);
+    color: #000000;
     padding: 20px;
 }
 .style3 .explore-img {
@@ -806,12 +807,12 @@ se
 }
 .style4 {
     background-color: var(--accent3-color);
-    color: var(--text-color-secondary);
+    color: #000000;
     padding: 20px;
 }
 .style5 {
     background-color: #f8fafc;
-    color: var(--text-color-main);
+    color: #000000;
     padding: 20px;
 }
 .style5.dark-mode {
@@ -838,11 +839,15 @@ se
 
 
 .fast-facts {
-    color: var(--accent4-color);
+    color: #000000;
 }
 .fast-facts.dark-mode h2{
     color: var(--accent4-color);
 }
+
+/*.fact h3 {
+    color: #000000;
+} */
 
 .facts {
     display: flex;
@@ -853,7 +858,7 @@ se
 .facts h3 {
     font-size: 0.9em;
     font-weight: 700;
-    color: var(--accent3-color);
+    color: #000000;
     margin: 0;
     text-align: center;
 }
