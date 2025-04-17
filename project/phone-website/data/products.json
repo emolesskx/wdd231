@@ -1,0 +1,185 @@
+{
+    "products": [{
+            "id": 6,
+            "title": "Apple iPhone 16",
+            "image": "./images/products/iPhone/iphone16-.jpg",
+            "price": 899,
+            "category": "Featured Products"
+        },
+
+        {
+            "id": 3,
+            "title": "Samsung Galaxy S25 plus",
+            "image": "./images/products/sumsung/galaxy-s25.webp",
+            "price": 1099,
+            "category": "Special Products"
+        },
+        {
+            "id": 4,
+            "title": "MSI Gaming Laptop",
+            "image": "./images/products/laptops/gaming-laptop.png",
+            "price": 1500,
+            "category": "Special Products"
+        },
+        {
+            "id": 8,
+            "title": "Samsung Galaxy S24 plus",
+            "image": "./images/products/sumsung/s24-plus.webp",
+            "price": 800,
+            "category": "Featured Products"
+        },
+        {
+            "id": 5,
+            "title": "Apple iPhone 16e",
+            "image": "./images/products/iPhone/iphone16e-.jpg",
+            "price": 799,
+            "category": "Special Products"
+        },
+
+        {
+            "id": 7,
+            "title": "Asus Zenbook Duo 14",
+            "image": "./images/products/laptops/asus-zenbook-duo-14-laptop.webp",
+            "price": 1800,
+            "category": "Featured Products"
+        },
+
+
+        {
+            "id": 10,
+            "title": "Samsung Galaxy S23 plus",
+            "image": "./images/products/sumsung/levant-galaxy-s23.avif",
+            "price": 500,
+            "category": "Special Products"
+        },
+        {
+            "id": 11,
+            "title": "Huawei Laptop",
+            "image": "./images/products/laptops/huawei-laptops.png",
+            "price": 700,
+            "category": "Special Products"
+        },
+        {
+            "id": 13,
+            "title": "Apple iPhone 15",
+            "image": "./images/products/iPhone/iphone15-.png",
+            "price": 750,
+            "category": "Trending Products"
+        },
+        {
+            "id": 12,
+            "title": "Dell Intel Laptop",
+            "image": "./images/products/laptops/dell-intel.webp",
+            "price": 600,
+            "category": "Special Products"
+        },
+
+        {
+            "id": 14,
+            "title": "MSI Prestige",
+            "image": "./images/products/laptops/msi-prestige.webp",
+            "price": 1900,
+            "category": "Trending Products"
+        },
+        {
+            "id": 9,
+            "title": "HP Envy Laptop",
+            "image": "./images/products/laptops/hp-envy-laptop.webp",
+            "price": 900,
+            "category": "Special Products"
+        },
+        {
+            "id": 15,
+            "title": "LG Gram Laptop",
+            "image": "./images/products/laptops/lg-gram-laptop.webp",
+            "price": 800,
+            "category": "Trending Products"
+        },
+        {
+            "id": 16,
+            "title": "Macbook Air 15inch",
+            "image": "./images/products/laptops/macbook-air-15-.png",
+            "price": 700,
+            "category": "Special Products"
+        },
+        {
+            "id": 17,
+            "title": "Asus Laptop",
+            "image": "./images/products/laptops/asus-laptop.png",
+            "price": 600,
+            "category": "Trending Products"
+        },
+        {
+            "id": 2,
+            "title": "Macbook Pro 14inch",
+            "image": "./images/products/laptops/mbp-14-.png",
+            "price": 400,
+            "category": "Special Products"
+        },
+        {
+            "id": 18,
+            "title": "Macbook Pro 16inch",
+            "image": "./images/products/laptops/mbp-16-.jpg",
+            "price": 650,
+            "category": "Trending Products"
+        },
+        {
+            "id": 20,
+            "title": "Lenovo Ideapad",
+            "image": "./images/products/laptops/lenovo-ideapad.webp",
+            "price": 500,
+            "category": "Special Products"
+        },
+        {
+            "id": 19,
+            "title": "Samsung Galaxy S25 Ultra",
+            "image": "./images/products/sumsung/levant-galaxy-s25-ultra.avif",
+            "price": 1099,
+            "category": "Trending Products"
+        },
+        {
+            "id": 1,
+            "title": "Acer Swift Go14",
+            "image": "./images/products/laptops/acer-swift-go14-laptop.webp",
+            "price": 650,
+            "category": "Special Products"
+        },
+        {
+            "id": 24,
+            "title": "Galaxy Book 4 Ultra",
+            "image": "./images/products/laptops/galaxy-book4-ultra-laptops.webp",
+            "price": 750,
+            "category": "Featured Products"
+        },
+        {
+            "id": 21,
+            "title": "Iphone 16 pro max",
+            "image": "./images/products/iPhone/iphone16promax.jpg",
+            "price": 1199,
+            "category": "Trending Products"
+        },
+
+        {
+            "id": 25,
+            "title": "Lenovo Thinkpad",
+            "image": "./images/products/laptops/lenovo-thinkpad.webp",
+            "price": 700,
+            "category": "Special Products"
+        },
+        {
+            "id": 22,
+            "title": "Samsung Galaxy Z Fold 6",
+            "image": "./images/products/sumsung/levant-galaxy-z-fold-6.avif",
+            "price": 999,
+            "category": "Trending Products"
+        },
+        {
+            "id": 23,
+            "title": "Apple iPhone 16 pro",
+            "image": "./images/products/iPhone/iphone16pro.jpg",
+            "price": 899,
+            "category": "Featured Products"
+        }
+
+    ]
+}
